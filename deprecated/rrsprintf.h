@@ -1,12 +1,5 @@
 #ifndef RR_SPRINTF_H_INCLUDE
 #define RR_SPRINTF_H_INCLUDE
-
-/*
-Single file sprintf replacement.
-
-Originally written by Jeff Roberts at RAD Game Tools - 2015/10/20. 
-Hereby placed in public domain.
-
 This is a full sprintf replacement that supports everything that
 the C runtime sprintfs support, including float/double, 64-bit integers,
 hex floats, field parameters (%*.*d stuff), length reads backs, etc.
